@@ -1,0 +1,109 @@
+.listImg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 25%;
+}
+
+.mailImg {
+  width: 40%;
+  height: 8vh;
+}
+
+.addMailImg {
+  width: 75%;
+  height: 10vh;
+}
+
+.mailPlace {
+  display: flex;
+}
+
+.gmailText {
+	margin-left: 3%;
+}
+
+.loginInputActive {
+  height: 27px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 15px;
+  padding-left: 12px;
+  border: 0.5px solid grey;
+  outline: none;
+}
+
+.loginInputActiveLong {
+  min-width: 300px;
+  height: 27px;
+  font-size: 15px;
+  padding-left: 12px;
+  border-radius: 10px;
+  border: 0.5px solid grey;
+  outline: none;
+}
+
+.loginInputDisable {
+  display: none;
+}
+
+.passwordInputActive {
+	min-width: 300px;
+	height: 27px;
+	font-size: 15px;
+	padding-left: 12px;
+	border-radius: 10px;
+	border: 0.5px solid grey;
+	outline: none;
+}
+
+.passwordInputDisable {
+  display: none;
+}
+
+.buttonSendActive {
+	margin-top: 3vh;
+	font-size: 15px;
+	font-weight: 520;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+	background-color: #005bd1;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	width: max-content;
+	padding: 7px 12px 7px 12px;
+}
+
+.buttonSendDisable {
+  display: none;
+}
+
+.showSelect {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-left: none;
+  font-size: 15px;
+  padding-left: 10px;
+  border: 0.5px solid grey;
+  outline: none;
+  padding-right: 7px;
+}
+
+.disableSelect {
+  display: none;
+}
+
+.LoginFormContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
