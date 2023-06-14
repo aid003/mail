@@ -145,3 +145,9 @@
     width: 290px;
   }
 }
+
+@media(max-height: 630px) {
+  .containerFooter {
+    display: none;
+  }
+}
