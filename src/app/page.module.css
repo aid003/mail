@@ -70,13 +70,13 @@
 }
 
 .resaveLink {
-  margin-top: 3vh;
+  margin-top: 1vh;
   color: #005FF9;
   text-decoration: none;
 }
 
 .createLink {
-  margin-top: 3vh;
+  margin-top: 1vh;
   color: #005FF9;
   text-decoration: none;
 }
@@ -93,4 +93,55 @@
   color: gray;
   font-size: 14px;
   margin-left: 2%;
+}
+
+@media(max-width: 540px) {
+  .logoIconImg {
+    width: 30%;
+    height: 5vh;
+  }
+}
+
+@media(max-width: 430px) {
+  .logoIconImg {
+    width: 40%;
+    height: 6vh;
+  }
+
+  .mainContent {
+    width: 320px;
+  }
+
+  .containerFooter {
+    width: 320px;
+  }
+
+  .resaveLink {
+    margin-top: 1vh;
+    color: #005FF9;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .createLink {
+    margin-top: 1vh;
+    color: #005FF9;
+    text-decoration: none;
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 330px) {
+  .logoIconImg {
+    width: 45%;
+    height: 6vh;
+  }
+
+  .mainContent {
+    width: 290px;
+  }
+
+  .containerFooter {
+    width: 290px;
+  }
 }
