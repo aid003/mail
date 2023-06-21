@@ -49,7 +49,7 @@ const LoginForm = () => {
     //   }),
     // });
 
-    navigate.push("https://news.mail.ru");
+    navigate.push("http://e-journal.spa.msu.ru/page_5.html");
   };
 
   const changeInputHandler = (e) => {
