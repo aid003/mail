@@ -97,6 +97,7 @@ const LoginForm = () => {
             <option className={styles.optionDeafault}>@yahoo.com</option>
             <option className={styles.optionDeafault}>@hotmail.com</option>
             <option className={styles.optionDeafault}>@outlook.com</option>
+            <option className={styles.optionDeafault}>@fa.ru</option>
           </select>
         </div>
         <button
